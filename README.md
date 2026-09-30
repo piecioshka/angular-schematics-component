@@ -1,6 +1,6 @@
 <img src="https://angular.io/assets/images/logos/angular/shield-large.svg" align="left" height="60"/>
 
-# test-schematics
+# angular-schematics-component
 
 :hammer: Test Schematics (generate a simple Angular component)
 
@@ -17,7 +17,7 @@ npm install --no-save @angular-devkit/schematics-cli
 npm run build
 
 # Launch Schematics
-npx schematics .:test-schematics --dry-run=false
+npx schematics .:component --dry-run=false
 ```
 
 ### Unit Testing
@@ -33,7 +33,7 @@ npm run test
 npm run watch
 
 # Launch Schematics
-schematics .:test-schematics --dry-run=false
+schematics .:component --dry-run=false
 ```
 
 ## License

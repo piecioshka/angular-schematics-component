@@ -15,7 +15,7 @@ const optionsScheme = Joi.object().keys({
   styleExtension: Joi.string().required(),
 });
 
-export function testSchematics(options: Options): Rule {
+export function component(options: Options): Rule {
   return (_: Tree, context: SchematicContext) => {
     const status = Joi.validate(options, optionsScheme);
 

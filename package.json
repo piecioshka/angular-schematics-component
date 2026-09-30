@@ -1,5 +1,5 @@
 {
-  "name": "test-schematics",
+  "name": "angular-schematics-component",
   "version": "0.0.0",
   "description": "A blank schematics",
   "scripts": {
